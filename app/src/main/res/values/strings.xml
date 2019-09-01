@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TestWebServiceApi</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="login">LOGIN</string>
+    <string name="cadastra_se">Cadastra-se</string>
+    <string name="nome">Nome</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string name="cadastro">CADASTRO</string>
+    <string name="descricao">Descrição</string>
+    <string name="data_nascimento">Data Nascimento</string>
+    <string name="sexo">Sexo</string>
+    <string name="tipo">Tipo</string>
+</resources>
