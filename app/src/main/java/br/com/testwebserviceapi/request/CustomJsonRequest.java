@@ -1,0 +1,1 @@
+package br.com.testwebserviceapi.request;public class CustomJsonRequest {}
