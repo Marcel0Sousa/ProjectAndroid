@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/media/tchelo/554F0B451B8B05EB/android/TestWebServiceApi/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml",
+            "outputFile": "/home/tchelo/AndroidStudioProjects/TestWebServiceApi/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml",
             "map": [
                 {
                     "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/res/values-hi/values-hi.xml",

@@ -66,7 +66,13 @@ public class LoginActivity extends Activity {
                 btnLogin.setVisibility(View.INVISIBLE);
                 progressBar = (ProgressBar) findViewById(R.id.progress);
                 progressBar.setVisibility(View.VISIBLE);
-                sendJson();
+
+                if (validaCampos() != false ){
+                    btnLogin.setVisibility(View.VISIBLE);
+                    progressBar.setVisibility(View.INVISIBLE);
+                } else {
+                    sendJson();
+                }
 
             }
         });
@@ -74,21 +80,25 @@ public class LoginActivity extends Activity {
 
     }
 
-    private void validaCampos() {
+    private boolean validaCampos() {
 
-        boolean res = false;
+        boolean respostaValidaCampos = false;
         String email = edtEmail.getText().toString();
         String senha = edtSenha.getText().toString();
 
-        if (res =! isEmailValido(email)) {
+        if (respostaValidaCampos =! isEmailValido(email)) {
+            edtEmail.setError("Email inválido");
             edtEmail.requestFocus();
 
-        } else if (res = isCampoVazio(senha)) {
+        }
+        if (respostaValidaCampos = isCampoVazio(senha)) {
+            edtSenha.setError("Senha inválida");
             edtSenha.requestFocus();
 
         }
 
-        if (res) {
+
+        /**if (respostaValidaCampos) {
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
             alert.setTitle("AVISO");
             alert.setMessage("Há campos em branco ou inválidos!");
@@ -96,7 +106,8 @@ public class LoginActivity extends Activity {
             alert.show();
             btnLogin.setVisibility(View.VISIBLE);
             progressBar.setVisibility(View.INVISIBLE);
-        }
+        }**/
+        return respostaValidaCampos;
     }
 
     private boolean isCampoVazio(String valor) {
@@ -137,8 +148,8 @@ public class LoginActivity extends Activity {
 
                         JSONObject data = response.getJSONObject(i);
                         User user = new Gson().fromJson(data.toString(), User.class);
-                        int id = data.getInt("id") ;
-                        boolean camposOk = false;
+                        int id = data.getInt("id");
+                        String desc = data.getString("descricao");
 
                         if (id > 0) {
 
@@ -147,9 +158,10 @@ public class LoginActivity extends Activity {
                             startActivity(intent);
                             finish();
 
-                        } else {
+                        }
+                        if(desc != null | validaCampos() != false) {
 
-                            validaCampos();
+                            //Toast.makeText(getApplicationContext(), "Usuario não cadastrado", Toast.LENGTH_LONG).show();
                             btnLogin.setVisibility(View.VISIBLE);
                             progressBar.setVisibility(View.INVISIBLE);
 
@@ -202,6 +214,7 @@ public class LoginActivity extends Activity {
         ));
         jsonReq.setTag(LoginActivity.class);
         mQueue.add(jsonReq);
+
     }
 
 
