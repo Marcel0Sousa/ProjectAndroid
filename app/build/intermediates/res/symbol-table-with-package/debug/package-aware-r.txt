@@ -628,6 +628,7 @@ color dim_foreground_material_dark
 color dim_foreground_material_light
 color error_color_material_dark
 color error_color_material_light
+color facebook
 color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
@@ -694,6 +695,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color twitter
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -995,6 +997,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background
 drawable capsule
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1002,6 +1005,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fb
+drawable fb_btn
 drawable homeshape
 drawable ic_home_black_24dp
 drawable ic_launcher_background
@@ -1024,8 +1029,12 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable roundbtn
+drawable style_button
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable tt_btn
+drawable tw
 id ALT
 id CTRL
 id FUNCTION
@@ -1388,6 +1397,8 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string login
+string login_facebook
+string login_twitter
 string mtrl_chip_close_icon_content_description
 string nome
 string password_toggle_content_description

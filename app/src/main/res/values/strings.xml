@@ -12,4 +12,6 @@
     <string name="sexo">Sexo</string>
     <string name="tipo">Tipo</string>
     <string name="atualizar">Atualizar</string>
+    <string name="login_facebook">Login com Facebook</string>
+    <string name="login_twitter">Login com Twitter</string>
 </resources>

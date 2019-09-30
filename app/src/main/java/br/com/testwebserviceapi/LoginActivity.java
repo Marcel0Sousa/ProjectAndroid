@@ -32,12 +32,11 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
-import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
 import br.com.testwebserviceapi.Domain.User;
-import br.com.testwebserviceapi.request.CustomJsonRequest;
+
 
 import static com.android.volley.Request.*;
 
@@ -68,10 +67,14 @@ public class LoginActivity extends Activity {
                 progressBar.setVisibility(View.VISIBLE);
 
                 if (validaCampos() != false ){
+
                     btnLogin.setVisibility(View.VISIBLE);
                     progressBar.setVisibility(View.INVISIBLE);
+
                 } else {
+
                     sendJson();
+
                 }
 
             }
@@ -97,16 +100,6 @@ public class LoginActivity extends Activity {
 
         }
 
-
-        /**if (respostaValidaCampos) {
-            AlertDialog.Builder alert = new AlertDialog.Builder(this);
-            alert.setTitle("AVISO");
-            alert.setMessage("Há campos em branco ou inválidos!");
-            alert.setNeutralButton("OK", null);
-            alert.show();
-            btnLogin.setVisibility(View.VISIBLE);
-            progressBar.setVisibility(View.INVISIBLE);
-        }**/
         return respostaValidaCampos;
     }
 
@@ -149,19 +142,17 @@ public class LoginActivity extends Activity {
                         JSONObject data = response.getJSONObject(i);
                         User user = new Gson().fromJson(data.toString(), User.class);
                         int id = data.getInt("id");
-                        String desc = data.getString("descricao");
 
-                        if (id > 0) {
+                        if(id > 0) {
 
                             Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
                             intent.putExtra("dtusr", user);
                             startActivity(intent);
                             finish();
 
-                        }
-                        if(desc != null | validaCampos() != false) {
+                        } else {
 
-                            //Toast.makeText(getApplicationContext(), "Usuario não cadastrado", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), "email ou senha incorretos", Toast.LENGTH_LONG).show();
                             btnLogin.setVisibility(View.VISIBLE);
                             progressBar.setVisibility(View.INVISIBLE);
 
@@ -181,6 +172,7 @@ public class LoginActivity extends Activity {
 
                 Log.e("Log", "ERROR sendJSON >> " + error.toString(), error);
                 btnLogin.setVisibility(View.VISIBLE);
+                progressBar.setVisibility(View.INVISIBLE);
                 noConnection();
 
 

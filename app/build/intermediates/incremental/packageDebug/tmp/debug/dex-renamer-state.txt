@@ -1,4 +1,4 @@
-#Fri Sep 27 13:26:54 BRT 2019
-base.0=/home/tchelo/AndroidStudioProjects/TestWebServiceApi/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Mon Sep 30 12:18:33 BRT 2019
+base.0=/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
