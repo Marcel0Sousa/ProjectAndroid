@@ -1,13 +1,17 @@
 package br.com.testwebserviceapi;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
+import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -26,7 +30,6 @@ import com.android.volley.toolbox.JsonRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
@@ -35,17 +38,20 @@ import java.util.Map;
 
 import br.com.testwebserviceapi.Domain.User;
 
-public class HomeActivity extends Activity {
+public class HomeActivity extends AppCompatActivity {
     private int MY_SOCKET_TIMEOUT_MS = 20000;
     JSONObject data;
     private RequestQueue mQueue;
     String urlDelete;
     Button btnAtualizar, btnDeletar;
+    //TextView tvNomeUsur, tvEmailUsur;
 
     private User usr;
-
     String email_antigo;
     String senha_antiga;
+
+    private DrawerLayout mDrawerLayout;
+    private ActionBarDrawerToggle mToggle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,23 +59,29 @@ public class HomeActivity extends Activity {
         setContentView(R.layout.activity_home);
 
         Bundle args = getIntent().getExtras();
-
         this.usr = getIntent().getParcelableExtra("dtusr");
-
         this.email_antigo = usr.getEmail();
         this.senha_antiga = usr.getSenha();
         TextView textView = (TextView) findViewById(R.id.textTV);
-        TextView textView2 = (TextView) findViewById(R.id.textTV2);
-        textView.setText(usr.getNome() + " " + usr.getSobrenome());
+        //TextView textView2 = (TextView) findViewById(R.id.textTV2);
+        textView.setText(usr.getNome() + " " + usr.getEmail());
 
-        Toast.makeText(HomeActivity.this, "Seja Bem Vindo!", Toast.LENGTH_SHORT).show();
+        Toast toast = Toast.makeText(this, "Seja Bem Vindo!", Toast.LENGTH_SHORT);
+        toast.show();
 
 
         mQueue = Volley.newRequestQueue(this);
-        btnAtualizar = findViewById(R.id.btnAtualizar);
-        btnDeletar = findViewById(R.id.btnDeletar);
 
-        btnAtualizar.setOnClickListener(new View.OnClickListener() {
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer);
+        mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
+        mDrawerLayout.addDrawerListener(mToggle);
+        mToggle.syncState();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        //btnAtualizar = findViewById(R.id.btnAtualizar);
+        //btnDeletar = findViewById(R.id.btnDeletar);
+
+        /**btnAtualizar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(HomeActivity.this, UpdateActivity.class);
@@ -86,8 +98,16 @@ public class HomeActivity extends Activity {
             public void onClick(View view) {
                 jsonDelete();
             }
-        });
+        });**/
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (mToggle.onOptionsItemSelected(item)) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     public void jsonDelete() {

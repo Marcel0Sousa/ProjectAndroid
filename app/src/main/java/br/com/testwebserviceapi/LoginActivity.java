@@ -44,7 +44,7 @@ public class LoginActivity extends Activity {
 
     private int MY_SOCKET_TIMEOUT_MS = 20000;
     private RequestQueue mQueue;
-    Button btnLogin;
+    private Button btnLogin, btnCriarConta;
     EditText edtEmail, edtSenha;
     private String url;
     ProgressBar progressBar;
@@ -57,8 +57,10 @@ public class LoginActivity extends Activity {
         edtEmail = findViewById(R.id.edtEmailUser);
         edtSenha = findViewById(R.id.edtSenhaUser);
         btnLogin = findViewById(R.id.btnLogin);
+        btnCriarConta = findViewById(R.id.btnCriarConta);
         url = "https://serene-sea-70010.herokuapp.com/login/verify/";
         mQueue = Volley.newRequestQueue(this);
+
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -77,6 +79,14 @@ public class LoginActivity extends Activity {
 
                 }
 
+            }
+        });
+
+        btnCriarConta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+                startActivity(intent);
             }
         });
 

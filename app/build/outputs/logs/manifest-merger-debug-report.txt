@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-40:12
+ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-44:12
 MERGED from [com.google.android.material:material:1.0.0-rc01] /home/tchelo/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/tchelo/.gradle/caches/transforms-2/files-2.1/f6a183f8595ca34f3d5cc99d1f8bc322/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/tchelo/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
@@ -36,29 +36,31 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/tchelo/.gradle/c
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/66e997bde0b6ece28f7fd36f5f4a1584/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/8787729f29cf7add1bc29c81caccddfd/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/d4ef17d609918d2a5f5a86d1ea02678f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-44:12
 	package
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:3:5-39
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:4:5-39
 		INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml
 		INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-40:12
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-44:12
 		INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-40:12
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-44:12
 		INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:7:5-38:19
+ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:8:5-42:19
 MERGED from [com.google.android.material:material:1.0.0-rc01] /home/tchelo/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0-rc01/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0-rc01] /home/tchelo/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0-rc01/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/tchelo/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
@@ -72,67 +74,65 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/tchel
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.1] /home/tchelo/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:11:9-41
+	tools:ignore
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:15:9-48
 	android:roundIcon
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:13:9-40
-activity#br.com.testwebserviceapi.UpdateActivity
-ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:14:9-52
-	android:name
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:14:19-49
-activity#br.com.testwebserviceapi.MainActivity
-ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:15:9-21:20
-	android:name
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:15:19-47
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:16:13-20:29
-action#android.intent.action.MAIN
-ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:17:17-69
-	android:name
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:17:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:19:17-77
-	android:name
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:14:9-40
 activity#br.com.testwebserviceapi.LoginActivity
-ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:22:9-26:52
-	android:screenOrientation
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:26:13-49
-	android:parentActivityName
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:25:13-55
-	android:label
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:24:13-42
+ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:23:13-42
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:16:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:20:27-74
 activity#br.com.testwebserviceapi.RegisterActivity
-ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:27:9-32:58
+ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:24:9-28:52
 	android:screenOrientation
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:31:13-49
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:28:13-49
 	android:parentActivityName
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:30:13-55
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:27:13-56
 	android:label
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:29:13-48
-	android:theme
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:32:13-55
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:26:13-34
 	android:name
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:28:13-45
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:25:13-45
 activity#br.com.testwebserviceapi.HomeActivity
-ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:33:9-37:52
+ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:30:9-35:48
 	android:screenOrientation
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:37:13-49
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:34:13-49
 	android:parentActivityName
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:36:13-56
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:33:13-56
 	android:label
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:35:13-33
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:32:13-41
+	android:theme
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:35:13-45
 	android:name
-		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:34:13-41
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:31:13-41
+activity#br.com.testwebserviceapi.UpdateActivity
+ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:37:9-41:52
+	android:screenOrientation
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:41:13-49
+	android:parentActivityName
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:40:13-55
+	android:label
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:39:13-34
+	android:name
+		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:38:13-43
 uses-sdk
 INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml

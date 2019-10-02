@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#84ddc3</color>
-    <color name="colorPrimaryDark">#79d4b8</color>
-    <color name="colorAccent">#222222</color>
+    <color name="colorPrimary">#82D9D0</color>
+    <color name="colorPrimaryDark">#73BFB8</color>
+    <color name="colorAccent">#5C9993</color>
+    <!-- Custom color -->
     <color name="colorWhite">#ffffff</color>
+    <color name="edtText">#D5808080</color>
+    <color name="txtView">#656565</color>
     <color name="facebook">#5585c5</color>
     <color name="twitter">#56b0f1</color>
+
+    <!-- color drawer -->
+    <color name="darkgray">#6c6c6c</color>
+
 </resources>

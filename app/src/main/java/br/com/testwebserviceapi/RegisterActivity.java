@@ -2,11 +2,13 @@ package br.com.testwebserviceapi;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -26,6 +28,7 @@ import com.google.gson.Gson;
 import static com.android.volley.Request.*;
 
 import java.io.UnsupportedEncodingException;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -39,8 +42,9 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText edtNome, edtSobrenome, edtEmail, edtSenha,
             edtDescricao, edtDate, edtSexo;
     private String url;
-
     ProgressBar progressReg;
+
+    DatePickerDialog.OnDateSetListener setListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,8 +60,37 @@ public class RegisterActivity extends AppCompatActivity {
         edtSexo = findViewById(R.id.txtSexoRegister);
         btnRegister = findViewById(R.id.btnRegister);
 
-        url = "https://serene-sea-70010.herokuapp.com/login/create";
         mQueue = Volley.newRequestQueue(this);
+
+        Calendar calendar = Calendar.getInstance();
+        final int year = calendar.get(Calendar.YEAR);
+        final int month = calendar.get(Calendar.MONTH);
+        final int day = calendar.get(Calendar.DAY_OF_MONTH);
+
+        setListener = new DatePickerDialog.OnDateSetListener() {
+            @Override
+            public void onDateSet(DatePicker view, int year, int month, int day) {
+                month = month+1;
+                String date = day+"/"+month+"/"+year;
+                edtDate.setText(date);
+            }
+        };
+
+        edtDate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DatePickerDialog datePickerDialog = new DatePickerDialog(
+                        RegisterActivity.this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker view, int year, int month, int day) {
+                        month = month+1;
+                        String date = day+"/"+month+"/"+year;
+                        edtDate.setText(date);
+                    }
+                }, year,month,day);
+                datePickerDialog.show();
+            }
+        });
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,7 +117,7 @@ public class RegisterActivity extends AppCompatActivity {
         user.setTipo(1);
 
         String jsonObject = new Gson().toJson(user);
-        String url = "https://serene-sea-70010.herokuapp.com/login/create";
+        url = "https://serene-sea-70010.herokuapp.com/login/create";
 
         JsonRequest jsonReq = new JsonRequest(Method.POST, url, jsonObject, new Listener<Integer>() {
 

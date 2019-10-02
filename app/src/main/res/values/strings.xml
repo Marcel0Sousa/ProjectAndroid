@@ -2,7 +2,7 @@
     <string name="app_name">TestWebServiceApi</string>
     <string name="email">Email</string>
     <string name="senha">Senha</string>
-    <string name="login">LOGIN</string>
+    <string name="tela_cadastro">Cadastro</string>
     <string name="cadastra_se">Cadastra-se</string>
     <string name="nome">Nome</string>
     <string name="sobrenome">Sobrenome</string>
@@ -14,4 +14,11 @@
     <string name="atualizar">Atualizar</string>
     <string name="login_facebook">Login com Facebook</string>
     <string name="login_twitter">Login com Twitter</string>
+    <string name="criar_conta">Criar uma Conta</string>
+    <string name="sobre">SOBRE</string>
+    <string name="contato">CONTATO</string>
+    <string name="login">LOGIN</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="home">HOME</string>
 </resources>
