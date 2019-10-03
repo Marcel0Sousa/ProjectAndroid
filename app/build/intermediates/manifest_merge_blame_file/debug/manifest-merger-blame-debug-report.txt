@@ -19,7 +19,7 @@
 14        android:allowBackup="true"
 14-->/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:9:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.0.1] /home/tchelo/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
+15-->[androidx.core:core:1.0.1] /home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/AndroidManifest.xml:22:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
 17-->/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:10:9-43

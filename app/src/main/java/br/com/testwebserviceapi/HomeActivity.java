@@ -12,6 +12,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -28,6 +29,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.HttpHeaderParser;
 import com.android.volley.toolbox.JsonRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.material.navigation.NavigationView;
 import com.google.gson.Gson;
 
 import org.json.JSONObject;
@@ -44,7 +46,7 @@ public class HomeActivity extends AppCompatActivity {
     private RequestQueue mQueue;
     String urlDelete;
     Button btnAtualizar, btnDeletar;
-    //TextView tvNomeUsur, tvEmailUsur;
+    TextView tvNomeUsur, tvEmailUsur;
 
     private User usr;
     String email_antigo;
@@ -64,7 +66,7 @@ public class HomeActivity extends AppCompatActivity {
         this.senha_antiga = usr.getSenha();
         TextView textView = (TextView) findViewById(R.id.textTV);
         //TextView textView2 = (TextView) findViewById(R.id.textTV2);
-        textView.setText(usr.getNome() + " " + usr.getEmail());
+        //textView.setText(usr.getNome() + " " + usr.getEmail());
 
         Toast toast = Toast.makeText(this, "Seja Bem Vindo!", Toast.LENGTH_SHORT);
         toast.show();
@@ -77,6 +79,8 @@ public class HomeActivity extends AppCompatActivity {
         mDrawerLayout.addDrawerListener(mToggle);
         mToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        headerView();
 
         //btnAtualizar = findViewById(R.id.btnAtualizar);
         //btnDeletar = findViewById(R.id.btnDeletar);
@@ -100,6 +104,16 @@ public class HomeActivity extends AppCompatActivity {
             }
         });**/
 
+    }
+
+    public void headerView() {
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        View headerView = navigationView.getHeaderView(0);
+        tvNomeUsur = headerView.findViewById(R.id.tvNomeUsur);
+        tvEmailUsur = headerView.findViewById(R.id.tvEmailUsur);
+
+        tvNomeUsur.setText(usr.getNome());
+        tvEmailUsur.setText(usr.getEmail());
     }
 
     @Override
