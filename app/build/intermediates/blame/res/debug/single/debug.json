@@ -8,12 +8,20 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/color/mtrl_chip_text_color.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/anim_abc_slide_out_top.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_sp_sexual_edt.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/sp_sexual_edt.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi_sp_description_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xhdpi/sp_description_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -24,12 +32,16 @@
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/ic_settings.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_heart.png.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/ic_heart.png"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_shape_sexual.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/drawable/shape_sexual.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -72,6 +84,10 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi_sp_date_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xhdpi/sp_date_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
@@ -80,28 +96,36 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/drawable/design_snackbar_background.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_sp_name_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/sp_name_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_sp_description_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-mdpi/sp_description_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_activity.png.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/ic_activity.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_shape_user.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/drawable/shape_user.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_exit.png.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/ic_exit.png"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_header.xml.flat",
-        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/layout/header.xml"
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/color_mtrl_btn_text_color_selector.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/color/mtrl_btn_text_color_selector.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/color_mtrl_btn_text_color_selector.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/color/mtrl_btn_text_color_selector.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -112,12 +136,16 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/interpolator/mtrl_linear_out_slow_in.xml"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/layout/design_text_input_password_icon.xml"
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_sp_date_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxhdpi/sp_date_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/layout/design_text_input_password_icon.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_dark.xml.flat",
@@ -160,6 +188,10 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/color/mtrl_tabs_colored_ripple_color.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/res/layout/notification_template_lines_media.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_heart.png.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/ic_heart.png"
     },
@@ -194,6 +226,10 @@
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_ic_mtrl_chip_close_circle.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/drawable/ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_icon_edit.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/icon_edit.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -240,12 +276,12 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_logo_perfil.png.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_logo_perfil.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_design_navigation_menu_item.xml.flat",
@@ -262,6 +298,10 @@
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_home.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_home.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_exit.png.flat",
@@ -286,6 +326,10 @@
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/color_mtrl_tabs_icon_color_selector_colored.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/color/mtrl_tabs_icon_color_selector_colored.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_sp_email_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/sp_email_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -320,12 +364,20 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_abc_select_dialog_material.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/layout/abc_select_dialog_material.xml"
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_home.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_home.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_sp_user_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/sp_user_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_abc_select_dialog_material.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/layout/abc_select_dialog_material.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -368,6 +420,10 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_design_layout_tab_text.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/layout/design_layout_tab_text.xml"
     },
@@ -396,6 +452,10 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi_sp_sexual_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xhdpi/sp_sexual_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png"
     },
@@ -412,8 +472,20 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_content_home.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/layout/content_home.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/menu_activity_drawer_menu.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/menu/activity_drawer_menu.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_sp_lock_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxhdpi/sp_lock_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/layout/notification_action.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/layout/notification_action.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -441,7 +513,7 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/layout-v21/notification_template_icon_group.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -454,6 +526,10 @@
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_logo_perfil.png.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_logo_perfil.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_icon_edit.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/icon_edit.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_abc_action_bar_up_container.xml.flat",
@@ -473,7 +549,7 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/color_abc_tint_seek_thumb.xml.flat",
@@ -481,11 +557,15 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_activity.xml.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_activity.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi_sp_user_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xhdpi/sp_user_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -497,19 +577,23 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/animator_mtrl_btn_unelevated_state_list_anim.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/animator/mtrl_btn_unelevated_state_list_anim.xml"
-    },
-    {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/layout/notification_template_part_time.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_heart.png.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-mdpi/ic_heart.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_shape_passwd.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/drawable/shape_passwd.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/animator_mtrl_btn_unelevated_state_list_anim.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/animator/mtrl_btn_unelevated_state_list_anim.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -541,11 +625,15 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-v21_gg_btn.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/drawable-v21/gg_btn.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_borderless_text_material.xml.flat",
@@ -600,6 +688,10 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/color/design_error.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_sp_email_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/sp_email_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-v24_twitter_logo.xml.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/drawable-v24/twitter_logo.xml"
     },
@@ -608,12 +700,20 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/color/mtrl_chip_ripple_color.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_sp_lock_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-mdpi/sp_lock_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-v21_abc_action_bar_item_background_material.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_google_logo.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-mdpi/google_logo.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -661,11 +761,15 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/layout-v21/notification_action.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/layout-v21/notification_action.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable/notification_tile_bg.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_fragment_atividades.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/layout/fragment_atividades.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
@@ -724,6 +828,10 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_btn_colored_material.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_google_logo.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxhdpi/google_logo.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_abc_action_menu_item_layout.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/layout/abc_action_menu_item_layout.xml"
     },
@@ -752,12 +860,20 @@
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/drawable/background.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_shape_description.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/drawable/shape_description.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_abc_dialog_material_background.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_email.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/ic_email.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -782,6 +898,10 @@
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_dark.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon_edit.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxhdpi/icon_edit.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -816,6 +936,10 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/navigation_mobile_navigation.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/navigation/mobile_navigation.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/interpolator-v21_mtrl_fast_out_slow_in.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/interpolator-v21/mtrl_fast_out_slow_in.xml"
     },
@@ -824,8 +948,20 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/anim-v21/design_bottom_sheet_slide_out.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_sp_user_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxhdpi/sp_user_edt.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi_google_logo.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xhdpi/google_logo.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_sp_sexual_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxhdpi/sp_sexual_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-v21_abc_edit_text_material.xml.flat",
@@ -880,6 +1016,10 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/color-v23/abc_color_highlight_material.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_sp_user_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-mdpi/sp_user_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
@@ -894,6 +1034,10 @@
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_sp_description_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxhdpi/sp_description_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -928,16 +1072,28 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/color/mtrl_tabs_ripple_color.xml"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/anim_abc_tooltip_enter.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/anim/abc_tooltip_enter.xml"
-    },
-    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_abc_switch_thumb_material.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_switch_thumb_material.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/anim_abc_tooltip_enter.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_icon_edit.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/icon_edit.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi_sp_lock_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xhdpi/sp_lock_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/anim_design_bottom_sheet_slide_out.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_google_logo.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/google_logo.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility.xml.flat",
@@ -974,6 +1130,14 @@
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/menu_activity_home_drawer.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/menu/activity_home_drawer.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_sp_description_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/sp_description_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -1016,6 +1180,10 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_google_logo.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/google_logo.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_btn_radio_material.xml"
     },
@@ -1034,6 +1202,14 @@
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_internal_bg.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_sp_lock_edt.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/sp_lock_edt.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_sp_date_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-mdpi/sp_date_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -1057,27 +1233,43 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/layout/notification_action_tombstone.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/layout/notification_action_tombstone.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_icon_edit.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-mdpi/icon_edit.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_shape_email.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/drawable/shape_email.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_sp_lock_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/sp_lock_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable/notification_icon_background.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/anim_nav_default_enter_anim.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/314927d0b5e0de1ff90634d2ee6b22f5/jetified-navigation-ui-2.1.0/res/anim/nav_default_enter_anim.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -1102,6 +1294,10 @@
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_abc_ic_ab_back_material.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_sp_name_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/sp_name_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -1132,6 +1328,10 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_roundbtn.png.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/drawable/roundbtn.png"
     },
@@ -1144,12 +1344,16 @@
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_settings.xml"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_custom_dialog.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/layout/custom_dialog.xml"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_user.png.flat",
-        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/ic_user.png"
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_sp_lock_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/sp_lock_edt.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_design_menu_item_action_area.xml.flat",
@@ -1180,12 +1384,20 @@
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_heart.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_sp_description_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/sp_description_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_home.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/ic_home.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_abc_dialog_title_material.xml.flat",
@@ -1212,6 +1424,14 @@
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_sp_user_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/sp_user_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/color_mtrl_bottom_nav_colored_item_tint.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/color/mtrl_bottom_nav_colored_item_tint.xml"
     },
@@ -1228,16 +1448,28 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/drawable-xhdpi-v4/design_ic_visibility_off.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi_sp_email_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xhdpi/sp_email_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable/notification_bg_low.xml"
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/anim_nav_default_pop_exit_anim.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/314927d0b5e0de1ff90634d2ee6b22f5/jetified-navigation-ui-2.1.0/res/anim/nav_default_pop_exit_anim.xml"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_user.png.flat",
-        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-mdpi/ic_user.png"
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_google_logo.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/google_logo.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_sp_date_edt.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/sp_date_edt.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -1248,8 +1480,16 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_sp_sexual_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/sp_sexual_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_dark.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_sp_email_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/sp_email_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -1264,12 +1504,20 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_email.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_email.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable/notification_bg.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/layout-v21/notification_template_custom_big.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_app_bar_home.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/layout/app_bar_home.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/anim_abc_slide_in_top.xml.flat",
@@ -1277,11 +1525,11 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_abc_ic_clear_material.xml.flat",
@@ -1296,8 +1544,20 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_ratingbar_material.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_sp_sexual_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/sp_sexual_edt.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout-sw600dp-v13_design_layout_snackbar.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
@@ -1332,8 +1592,16 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/color/design_tint_password_toggle.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_sp_user_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/sp_user_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_logo_perfil.xml.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_logo_perfil.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/menu_home.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/menu/home.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar_include.xml.flat",
@@ -1384,6 +1652,10 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_sp_date_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/sp_date_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility_off.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/drawable-mdpi-v4/design_ic_visibility_off.png"
     },
@@ -1405,7 +1677,7 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -1460,12 +1732,20 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/color-v23/abc_tint_switch_track.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_sp_name_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxhdpi/sp_name_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_exit.png.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_exit.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_home.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-mdpi/ic_home.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -1492,8 +1772,16 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_fragment_configuracoes.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/layout/fragment_configuracoes.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/anim_nav_default_pop_enter_anim.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/314927d0b5e0de1ff90634d2ee6b22f5/jetified-navigation-ui-2.1.0/res/anim/nav_default_pop_enter_anim.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1501,7 +1789,7 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_header_item_layout.xml.flat",
@@ -1513,7 +1801,7 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -1528,12 +1816,16 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/interpolator_mtrl_fast_out_slow_in.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/interpolator/mtrl_fast_out_slow_in.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -1542,6 +1834,14 @@
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_sp_date_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/sp_date_edt.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_email.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_email.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_home_black_24dp.png.flat",
@@ -1557,7 +1857,7 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/layout/notification_template_icon_group.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -1576,12 +1876,20 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_shape_date.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/drawable/shape_date.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_settings.png.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-mdpi/ic_settings.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_sp_description_edt.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/sp_description_edt.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1597,11 +1905,11 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-v21/notification_action_background.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-v21/notification_action_background.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_mtrl_tabs_default_indicator.xml.flat",
@@ -1620,8 +1928,16 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_sp_date_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/sp_date_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_abc_text_cursor_material.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_sp_description_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/sp_description_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/menu_drawermenu.xml.flat",
@@ -1664,12 +1980,24 @@
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_settings.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_shape_name.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/drawable/shape_name.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_email.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_email.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_light.xml.flat",
@@ -1680,8 +2008,16 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_sp_email_edt.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/sp_email_edt.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_sp_email_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-mdpi/sp_email_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/color-v23_abc_tint_spinner.xml.flat",
@@ -1709,7 +2045,7 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -1718,6 +2054,10 @@
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_ic_mtrl_chip_checked_circle.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/drawable/ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_sp_user_edt.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/sp_user_edt.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
@@ -1729,7 +2069,7 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_capsule.xml.flat",
@@ -1746,6 +2086,10 @@
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_thumb_material.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/res/layout/notification_template_media_custom.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -1768,6 +2112,10 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_sp_lock_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/sp_lock_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/anim_design_snackbar_out.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/anim/design_snackbar_out.xml"
     },
@@ -1780,8 +2128,24 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_icon_edit.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/icon_edit.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_email.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_email.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_sp_name_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-mdpi/sp_name_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_sp_name_edt.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/sp_name_edt.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/animator_design_fab_show_motion_spec.xml.flat",
@@ -1824,12 +2188,20 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_fragment_home.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/anim_abc_fade_out.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_fragment_favoritos.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/layout/fragment_favoritos.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -1864,20 +2236,12 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/drawable-hdpi-v4/design_ic_visibility.png"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_user.xml.flat",
-        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_user.xml"
-    },
-    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/color_mtrl_chip_close_icon_tint.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/color/mtrl_chip_close_icon_tint.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/anim_abc_slide_out_bottom.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_user.png.flat",
-        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_user.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_mtrl_layout_snackbar.xml.flat",
@@ -1888,8 +2252,16 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon_edit.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xhdpi/icon_edit.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_email.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/ic_email.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/layout-v16/notification_template_custom_big.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/layout-v16/notification_template_custom_big.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/color_switch_thumb_material_dark.xml.flat",
@@ -1916,8 +2288,20 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/layout/design_navigation_item_header.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi_sp_name_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xhdpi/sp_name_edt.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_home.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_home.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_google_logo.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/google_logo.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1940,6 +2324,10 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/layout-v26/abc_screen_toolbar.xml"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_nav_header_home.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/layout/nav_header_home.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
@@ -1954,6 +2342,10 @@
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_sp_email_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxhdpi/sp_email_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/animator_design_fab_hide_motion_spec.xml.flat",
@@ -1984,8 +2376,16 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/anim_nav_default_exit_anim.xml.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/314927d0b5e0de1ff90634d2ee6b22f5/jetified-navigation-ui-2.1.0/res/anim/nav_default_exit_anim.xml"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_home.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_home.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -2001,7 +2401,7 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat",
@@ -2040,16 +2440,16 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/drawable-v21/avd_hide_password.xml"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_user.png.flat",
-        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_user.png"
-    },
-    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_home.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/ic_home.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_mtrl_layout_snackbar_include.xml.flat",
@@ -2084,12 +2484,16 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_sp_sexual_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-mdpi/sp_sexual_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/layout/notification_template_part_chronometer.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -2102,6 +2506,10 @@
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_sp_name_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/sp_name_edt.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/color-v23_abc_tint_seek_thumb.xml.flat",
@@ -2128,6 +2536,10 @@
         "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/ic_logo_perfil.png"
     },
     {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-ldpi_sp_sexual_edt.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-ldpi/sp_sexual_edt.png"
+    },
+    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/color_mtrl_chip_background_color.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/res/color/mtrl_chip_background_color.xml"
     },
@@ -2140,12 +2552,12 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_user.png.flat",
-        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-hdpi/ic_user.png"
-    },
-    {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_abc_btn_default_mtrl_shape.xml.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_email.png.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-mdpi/ic_email.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_abc_search_dropdown_item_icons_2line.xml.flat",
@@ -2184,16 +2596,16 @@
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_user.png.flat",
-        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_user.png"
-    },
-    {
-        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_fragment_sair.xml.flat",
+        "source": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/res/layout/fragment_sair.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -2205,7 +2617,7 @@
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/layout_notification_template_custom_big.xml.flat",
-        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/46da25c3e2ae6308b2227b660caa604d/core-1.0.1/res/layout/notification_template_custom_big.xml"
+        "source": "/home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/res/layout/notification_template_custom_big.xml"
     },
     {
         "merged": "/home/tchelo/AndroidStudioProjects/ProjectAndroid/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_tick_mark_material.xml.flat",

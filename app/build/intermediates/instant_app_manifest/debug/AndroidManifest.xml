@@ -21,7 +21,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="br.com.testwebserviceapi.LoginActivity" >
+        <activity
+            android:name="br.com.testwebserviceapi.ui.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="br.com.testwebserviceapi.ui.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,21 +33,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="br.com.testwebserviceapi.RegisterActivity"
+            android:name="br.com.testwebserviceapi.ui.RegisterActivity"
             android:label="@null"
-            android:parentActivityName="br.com.testwebserviceapi.LoginActivity"
+            android:parentActivityName="br.com.testwebserviceapi.ui.LoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="br.com.testwebserviceapi.HomeActivity"
+            android:name="br.com.testwebserviceapi.ui.HomeActivity1"
             android:label="@string/home"
-            android:parentActivityName="br.com.testwebserviceapi.LoginActivity"
+            android:parentActivityName="br.com.testwebserviceapi.ui.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemes" />
         <activity
-            android:name="br.com.testwebserviceapi.UpdateActivity"
+            android:name="br.com.testwebserviceapi.ui.UpdateActivity"
             android:label="@null"
-            android:parentActivityName="br.com.testwebserviceapi.HomeActivity"
+            android:parentActivityName="br.com.testwebserviceapi.ui.HomeActivity"
             android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="br.com.testwebserviceapi.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

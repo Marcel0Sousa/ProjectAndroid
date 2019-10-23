@@ -5,10 +5,11 @@
     <color name="colorAccent">#5C9993</color>
     <!-- Custom color -->
     <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
     <color name="edtText">#D5808080</color>
     <color name="txtView">#656565</color>
-    <color name="facebook">#5585c5</color>
-    <color name="twitter">#56b0f1</color>
+    <color name="facebook">#3b5998</color>
+    <color name="twitter">#55acee</color>
 
     <!-- color drawer -->
     <color name="darkgray">#6c6c6c</color>

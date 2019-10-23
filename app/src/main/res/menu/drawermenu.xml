@@ -2,11 +2,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/itemPrerfil"
-        android:icon="@drawable/ic_user"
-        android:title="Perfil" />
-
-    <item
         android:id="@+id/itemFavorito"
         android:icon="@drawable/ic_heart"
         android:title="Favoritos" />

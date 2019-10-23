@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/itemFavorito"
+            android:icon="@drawable/ic_heart"
+            android:title="Favoritos" />
+
+        <item
+            android:id="@+id/itemAtividade"
+            android:icon="@drawable/ic_activity"
+            android:title="Atividades" />
+    </group>
+
+    <item android:title="@null">
+        <menu>
+            <item
+                android:id="@+id/itemConfig"
+                android:icon="@drawable/ic_settings"
+                android:title="Configuração" />
+
+            <item
+                android:id="@+id/itemSair"
+                android:icon="@drawable/ic_exit"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>

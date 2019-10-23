@@ -5,164 +5,268 @@
     style="@android:style/Widget.DeviceDefault.Light.ScrollView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/colorWhite"
     android:orientation="vertical"
-    android:padding="1dp"
-    tools:context=".RegisterActivity">
+    tools:context=".ui.RegisterActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:background="@drawable/background"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+        app:cardPreventCornerOverlap="false"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
 
-        <LinearLayout
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/homeshape"
-            android:gravity="center"
-            android:padding="10dp">
-
-            <TextView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/cadastro"
-                android:textColor="@color/colorWhite"
-                android:textSize="25sp"
-                android:textStyle="bold" />
-
-        </LinearLayout>
-
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/txtNameRegister"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="0.5dp"
-                android:background="@drawable/capsule"
-                android:hint="@string/nome"
-                android:imeOptions="actionNext"
-                android:inputType="text"
-                android:paddingLeft="20dp"
-                android:textColor="@color/edtText"
-                android:textSize="15sp" />
 
-            <EditText
-                android:id="@+id/txtLastNameRegister"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="0.5dp"
-                android:background="@drawable/capsule"
-                android:hint="@string/sobrenome"
-                android:imeOptions="actionNext"
-                android:inputType="text"
-                android:paddingLeft="20dp"
-                android:textColor="@color/edtText"
-                android:textSize="15sp" />
-
-            <EditText
-                android:id="@+id/txtEmailRegister"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="0.5dp"
-                android:background="@drawable/capsule"
-                android:hint="@string/email"
-                android:imeOptions="actionNext"
-                android:inputType="textEmailAddress"
-                android:paddingLeft="20dp"
-                android:textColor="@color/edtText"
-                android:textSize="15sp" />
-
-            <EditText
-                android:id="@+id/txtPasswdRegister"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="0.5dp"
-                android:background="@drawable/capsule"
-                android:hint="@string/senha"
-                android:imeOptions="actionNext"
-                android:inputType="textPassword"
-                android:paddingLeft="20dp"
-                android:textColor="@color/edtText"
-                android:textSize="15sp" />
-
-            <EditText
-                android:id="@+id/txtDescRegister"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="0.5dp"
-                android:background="@drawable/capsule"
-                android:hint="@string/descricao"
-                android:imeOptions="actionNext"
-                android:inputType="text"
-                android:paddingLeft="20dp"
-                android:textColor="@color/edtText"
-                android:textSize="15sp" />
-
-
-            <EditText
-                android:id="@+id/txtDateRegister"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="0.5dp"
-                android:background="@drawable/capsule"
-                android:hint="@string/data_nascimento"
-                android:imeOptions="actionNext"
-                android:inputType="date"
-                android:paddingLeft="20dp"
-                android:textColor="@color/edtText"
-                android:textSize="15sp" />
-
-            <EditText
-                android:id="@+id/txtSexoRegister"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="0.5dp"
-                android:background="@drawable/capsule"
-                android:hint="@string/sexo"
-                android:imeOptions="actionNext"
-                android:inputType="text"
-                android:paddingLeft="20dp"
-                android:textColor="@color/edtText"
-                android:textSize="15sp" />
-
-
-        </LinearLayout>
-
-        <FrameLayout
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center">
-
-            <ProgressBar
-                android:id="@+id/progressReg"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <LinearLayout
+                android:id="@+id/LL1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="2dp"
-                android:visibility="invisible" />
+                android:background="@drawable/background"
+                android:gravity="center"
+                android:padding="20dp">
 
-            <Button
-                android:id="@+id/btnRegister"
-                android:layout_width="300dp"
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/cadastro"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/LL1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-20dp"
+                android:background="@drawable/roundbtn" />
+
+            <RelativeLayout
+                android:id="@+id/RLregis"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimaryDark"
-                android:src="@drawable/capsule"
-                android:text="@string/cadastra_se"
-                android:textColor="@color/colorWhite"
-                android:textSize="15sp"
-                android:visibility="visible" />
+                android:layout_below="@id/LL1"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:orientation="vertical">
 
-        </FrameLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/TextInptNomeRegis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:hintEnabled="false">
 
-    </LinearLayout>
+                    <EditText
+                        android:id="@+id/txtNameRegister"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@drawable/capsule"
+                        android:drawableLeft="@drawable/shape_name"
+                        android:drawablePadding="10dp"
+                        android:hint="@string/nome"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:textColor="@color/edtText"
+                        android:textSize="15sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/TextInptSobrenomeRegis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/TextInptNomeRegis"
+                    app:hintEnabled="false">
+
+                    <EditText
+                        android:id="@+id/txtLastNameRegister"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@drawable/capsule"
+                        android:drawableLeft="@drawable/shape_name"
+                        android:drawablePadding="10dp"
+                        android:hint="@string/sobrenome"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:textColor="@color/edtText"
+                        android:textSize="15sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/TextInptEmailRegis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/TextInptSobrenomeRegis"
+                    app:hintEnabled="false">
+
+                    <EditText
+                        android:id="@+id/txtEmailRegister"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@drawable/capsule"
+                        android:drawableLeft="@drawable/shape_email"
+                        android:drawablePadding="10dp"
+                        android:hint="@string/email"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/edtText"
+                        android:textSize="15sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/TextInptSenhaRegis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/TextInptEmailRegis"
+                    app:hintEnabled="false"
+                    app:passwordToggleEnabled="false">
+
+                    <EditText
+                        android:id="@+id/txtPasswdRegister"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@drawable/capsule"
+                        android:drawableLeft="@drawable/shape_passwd"
+                        android:drawablePadding="10dp"
+                        android:hint="@string/senha"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPassword"
+                        android:textColor="@color/edtText"
+                        android:textSize="15sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/TextInptDescRegis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/TextInptSenhaRegis"
+                    app:hintEnabled="false">
+
+                    <EditText
+                        android:id="@+id/txtDescRegister"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@drawable/capsule"
+                        android:drawableLeft="@drawable/shape_description"
+                        android:drawablePadding="10dp"
+                        android:hint="@string/descricao"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:textColor="@color/edtText"
+                        android:textSize="15sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/TextInptDataRegis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/TextInptDescRegis"
+                    app:hintEnabled="false">
+
+                    <EditText
+                        android:id="@+id/txtDateRegister"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@drawable/capsule"
+                        android:drawableLeft="@drawable/shape_date"
+                        android:drawablePadding="10dp"
+                        android:hint="@string/data_nascimento"
+                        android:imeOptions="actionNext"
+                        android:inputType="date"
+                        android:textColor="@color/edtText"
+                        android:textSize="15sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/TextInptSexoRegis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/TextInptDataRegis"
+                    app:hintEnabled="false">
+
+                    <EditText
+                        android:id="@+id/txtSexoRegister"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.5dp"
+                        android:background="@drawable/capsule"
+                        android:drawableLeft="@drawable/shape_sexual"
+                        android:drawablePadding="10dp"
+                        android:hint="@string/sexo"
+                        android:imeOptions="actionGo"
+                        android:inputType="text"
+                        android:textColor="@color/edtText"
+                        android:textSize="15sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp"
+                android:layout_below="@id/RLregis"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ProgressBar
+                        android:id="@+id/progressReg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:visibility="invisible" />
+
+                    <Button
+                        android:id="@+id/btnRegister"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimaryDark"
+                        android:src="@drawable/capsule"
+                        android:text="@string/cadastra_se"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15sp"
+                        android:visibility="visible" />
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
 
 </ScrollView>
