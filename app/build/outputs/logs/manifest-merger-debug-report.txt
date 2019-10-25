@@ -4,14 +4,14 @@ ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/Androi
 INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-45:12
 INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-45:12
 INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:2:1-45:12
-MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/314927d0b5e0de1ff90634d2ee6b22f5/jetified-navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/0536d6cd2ebb14f9ba9171ea3b0cbf88/jetified-navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/tchelo/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/1d93c655cdcaa19a3180f48e63f30b3d/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/834397949403ccef5558b21c9967f60e/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/4f3f57a83cb26d1dd8ca69501722966b/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.volley:volley:1.1.1] /home/tchelo/.gradle/caches/transforms-2/files-2.1/d4cccae3daef5601a8dec880cfdeb751/jetified-volley-1.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.1] /home/tchelo/.gradle/caches/transforms-2/files-2.1/fbeec74ce0446d54d0b154d25b13583c/jetified-volley-1.1.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/c034f7088c57e18a85dafc68b942945f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/91a2e0650e476867729e44e6c1acc534/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/99839343cfb353ec06147cc6109cf9b2/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -72,14 +72,14 @@ ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/Androi
 		ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:6:22-64
 application
 ADDED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml:8:5-43:19
-MERGED from [com.google.android.material:material:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/tchelo/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/tchelo/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/4f3f57a83cb26d1dd8ca69501722966b/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/4f3f57a83cb26d1dd8ca69501722966b/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.volley:volley:1.1.1] /home/tchelo/.gradle/caches/transforms-2/files-2.1/d4cccae3daef5601a8dec880cfdeb751/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.1] /home/tchelo/.gradle/caches/transforms-2/files-2.1/d4cccae3daef5601a8dec880cfdeb751/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/tchelo/.gradle/caches/transforms-2/files-2.1/fbeec74ce0446d54d0b154d25b13583c/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/tchelo/.gradle/caches/transforms-2/files-2.1/fbeec74ce0446d54d0b154d25b13583c/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/e50b3f7edd4f9041d2755ee263c7c860/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
 MERGED from [androidx.core:core:1.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:5-89
@@ -160,10 +160,10 @@ uses-sdk
 INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml
 INJECTED from /home/tchelo/AndroidStudioProjects/ProjectAndroid/app/src/main/AndroidManifest.xml
-MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/314927d0b5e0de1ff90634d2ee6b22f5/jetified-navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/314927d0b5e0de1ff90634d2ee6b22f5/jetified-navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/0536d6cd2ebb14f9ba9171ea3b0cbf88/jetified-navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/0536d6cd2ebb14f9ba9171ea3b0cbf88/jetified-navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/tchelo/.gradle/caches/transforms-2/files-2.1/dfb17c32c9e1bced7bb89f3e844a7607/appcompat-1.0.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/tchelo/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
@@ -174,8 +174,8 @@ MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/tchelo/.gradle
 MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/834397949403ccef5558b21c9967f60e/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/4f3f57a83cb26d1dd8ca69501722966b/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/4f3f57a83cb26d1dd8ca69501722966b/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.volley:volley:1.1.1] /home/tchelo/.gradle/caches/transforms-2/files-2.1/d4cccae3daef5601a8dec880cfdeb751/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
-MERGED from [com.android.volley:volley:1.1.1] /home/tchelo/.gradle/caches/transforms-2/files-2.1/d4cccae3daef5601a8dec880cfdeb751/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /home/tchelo/.gradle/caches/transforms-2/files-2.1/fbeec74ce0446d54d0b154d25b13583c/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /home/tchelo/.gradle/caches/transforms-2/files-2.1/fbeec74ce0446d54d0b154d25b13583c/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
 MERGED from [androidx.cardview:cardview:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/c034f7088c57e18a85dafc68b942945f/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/c034f7088c57e18a85dafc68b942945f/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/tchelo/.gradle/caches/transforms-2/files-2.1/91a2e0650e476867729e44e6c1acc534/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
