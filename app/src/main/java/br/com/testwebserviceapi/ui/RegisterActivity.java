@@ -32,17 +32,18 @@ import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
+import br.com.testwebserviceapi.Domain.Assets;
 import br.com.testwebserviceapi.Domain.User;
 import br.com.testwebserviceapi.R;
+import br.com.testwebserviceapi.network.CustomJsonRequestCreate;
 
 public class RegisterActivity extends AppCompatActivity {
 
+    private Volley volley;
     private RequestQueue mQueue;
-    private Map<String, String> params;
     private Button btnRegister;
     private EditText edtNome, edtSobrenome, edtEmail, edtSenha,
             edtDescricao, edtDate, edtSexo;
-    private String url;
     ProgressBar progressReg;
 
     DatePickerDialog.OnDateSetListener setListener;
@@ -63,6 +64,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         mQueue = Volley.newRequestQueue(this);
 
+        // Calendar EditText > edtDate
         Calendar calendar = Calendar.getInstance();
         final int year = calendar.get(Calendar.YEAR);
         final int month = calendar.get(Calendar.MONTH);
@@ -118,34 +120,33 @@ public class RegisterActivity extends AppCompatActivity {
         user.setTipo(1);
 
         String jsonObject = new Gson().toJson(user);
-        url = "https://serene-sea-70010.herokuapp.com/login/create";
 
-        JsonRequest jsonReq = new JsonRequest(Method.POST, url, jsonObject, new Listener<Integer>() {
+        CustomJsonRequestCreate jsonReq = new CustomJsonRequestCreate(Method.POST, Assets.API_REGISTER, jsonObject, new Listener<Integer>() {
 
             @Override
             public void onResponse(Integer response) {
-                Log.i("Resposta >> ", response.toString());
+                Log.i(Assets.LOG_RESPONSE, response.toString());
 
                 String resposta;
 
                 if (response == -2) {
 
-                    resposta = "Email inválido";
+                    resposta = Assets.INVALID_EMAIL;
                     btnRegister.setVisibility(View.VISIBLE);
                     progressReg.setVisibility(View.INVISIBLE);
                 } else if (response == -1) {
-                    resposta = "Usuario já existe";
+                    resposta = Assets.USER_EXISTS;
                     btnRegister.setVisibility(View.VISIBLE);
                     progressReg.setVisibility(View.INVISIBLE);
                 } else if (response > 0) {
-                    resposta = "Conta criada com sucesso";
+                    resposta = Assets.ACCOUNT_CREATED;
                     Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
                     startActivity(intent);
                     finish();
 
                 } else {
 
-                    resposta = "Não foi possivel realizar o cadastro, tente novamente mais tarde ou verifique os dados informados";
+                    resposta = Assets.FATAL_ERROR;
                     btnRegister.setVisibility(View.VISIBLE);
                     progressReg.setVisibility(View.INVISIBLE);
                 }
@@ -157,32 +158,11 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onErrorResponse(VolleyError error) {
 
-
-
-                Log.e("Log", "ERROR sendJSON >> " + error.toString(), error);
-                Toast.makeText(getApplicationContext(), "Verifique sua conexão com a internet", Toast.LENGTH_SHORT).show();
+                Log.e(Assets.LOG_ERRO, Assets.LOG_ERRO + error.toString(), error);
+                Toast.makeText(getApplicationContext(), Assets.NO_CONNECTION, Toast.LENGTH_SHORT).show();
 
             }
-        }) {
-            @Override
-            public Map<String, String> getHeaders() throws AuthFailureError {
-
-                HashMap<String, String> headers = new HashMap<String, String>();
-                headers.put("Content-Type", "application/json");
-                headers.put("Accept", "application/json");
-                return headers;
-            }
-
-            @Override
-            protected Response<Integer> parseNetworkResponse(NetworkResponse response) {
-                try {
-                    String jsonString = new String(response.data, HttpHeaderParser.parseCharset(response.headers));
-                    return Response.success(new Integer(jsonString), HttpHeaderParser.parseCacheHeaders(response));
-                } catch (UnsupportedEncodingException e) {
-                    return Response.error(new ParseError(e));
-                }
-            }
-        };
+        });
 
         jsonReq.setTag(LoginActivity.class);
         mQueue.add(jsonReq);

@@ -2,26 +2,18 @@ package br.com.testwebserviceapi.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
-
 import android.view.View;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-
 import com.google.android.material.navigation.NavigationView;
-
 import androidx.drawerlayout.widget.DrawerLayout;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
 import android.view.Menu;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import br.com.testwebserviceapi.Domain.User;
 import br.com.testwebserviceapi.R;
 
@@ -39,7 +31,7 @@ public class HomeActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
 
-        Bundle args = getIntent().getExtras();
+        //Bundle args = getIntent().getExtras();
         this.usr = getIntent().getParcelableExtra("dtusr");
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -77,6 +69,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void headerView() {
+
         // Metodo que seta os dados nome e email na drawer
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         View headerView = navigationView.getHeaderView(0);
@@ -90,12 +83,13 @@ public class HomeActivity extends AppCompatActivity {
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), UpdateActivity.class);
+                Intent intent = new Intent(HomeActivity.this, UpdateActivity.class);
                 startActivity(intent);
 
                 Bundle params = new Bundle();
                 intent.putExtra("dtupdt", usr);
                 startActivity(intent);
+                onStop();
             }
         });
     }

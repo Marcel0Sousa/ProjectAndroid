@@ -25,19 +25,6 @@ public class User implements Parcelable {
     super();
 }
 
-    /**public User(Integer id, String nome, String sobrenome, String email, String senha, String descricao, String image, String data_nascimento, String sexo, String tipo) {
-        super();
-        this.id = id;
-        this.nome = nome;
-        this.sobrenome = sobrenome;
-        this.email = email;
-        this.senha = senha;
-        this.descricao = descricao;
-        this.image = image;
-        this.data_nascimento = data_nascimento;
-        this.sexo = sexo;
-        this.tipo = tipo;
-    }**/
 
     protected User(Parcel in) {
         if (in.readByte() == 0) {

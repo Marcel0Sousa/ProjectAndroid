@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/login"
@@ -9,205 +9,216 @@
     android:orientation="vertical"
     tools:context=".ui.LoginActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="370dp"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:id="@+id/LLlogin"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="320dp"
-            android:background="@drawable/background">
+            android:layout_height="350dp"
+            android:orientation="vertical">
 
-            <!-- Layout tela de login -->
-            <RelativeLayout
+            <LinearLayout
+                android:id="@+id/LLlogin"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:orientation="vertical">
+                android:layout_height="320dp"
+                android:background="@drawable/background">
 
-                <TextView
-                    android:id="@+id/tvLogo"
-                    android:layout_width="300dp"
+                <!-- Layout tela de login -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center"
                     android:gravity="center"
-                    android:text="@string/login"
-                    android:textColor="@color/colorWhite"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+                    android:orientation="vertical">
 
-                <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/TextInpEmail"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/tvLogo"
-                    app:hintEnabled="false">
-
-                    <EditText
-                        android:drawableLeft="@drawable/shape_email"
-                        android:drawablePadding="15dp"
-                        android:id="@+id/edtEmailUser"
+                    <TextView
+                        android:id="@+id/tvLogo"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="0.5dp"
-                        android:background="@drawable/capsule"
-                        android:hint="@string/email"
-                        android:imeOptions="actionNext"
-                        android:inputType="textEmailAddress"
-                        android:textColorHint="@color/edtText"
-                        android:textSize="15sp"/>
-
-                </com.google.android.material.textfield.TextInputLayout>
-
-                <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/TextInpPass"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/TextInpEmail"
-                    app:hintEnabled="false"
-                    app:passwordToggleEnabled="true">
-
-                    <EditText
-                        android:id="@+id/edtSenhaUser"
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="1dp"
-                        android:background="@drawable/capsule"
-                        android:hint="@string/senha"
-                        android:imeOptions="actionGo"
-                        android:inputType="textPassword"
-                        android:textColorHint="@color/edtText"
-                        android:textSize="15sp" />
-
-                </com.google.android.material.textfield.TextInputLayout>
-
-                <!-- Layout progress bar -->
-                <FrameLayout
-                    android:layout_width="300dp"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/TextInpPass"
-                    android:layout_gravity="center">
-
-                    <ProgressBar
-                        android:id="@+id/progress"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="2dp"
-                        android:visibility="invisible" />
-
-                    <Button
-                        android:id="@+id/btnLogin"
-                        android:layout_width="300dp"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/style_button"
-                        android:src="@drawable/capsule"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
                         android:text="@string/login"
                         android:textColor="@color/colorWhite"
-                        android:textSize="15sp"
-                        android:textStyle="bold"
-                        android:visibility="visible" />
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
 
-                </FrameLayout>
-            </RelativeLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/TextInpEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvLogo"
+                        app:hintEnabled="false">
+
+                        <EditText
+
+                            android:id="@+id/edtEmailUser"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="0.5dp"
+                            android:background="@drawable/capsule"
+                            android:drawableLeft="@drawable/shape_email"
+                            android:drawablePadding="15dp"
+                            android:hint="@string/email"
+                            android:imeOptions="actionNext"
+                            android:inputType="textEmailAddress"
+                            android:textColorHint="@color/edtText"
+                            android:textSize="15sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/TextInpPass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/TextInpEmail"
+                        app:hintEnabled="false"
+                        app:passwordToggleEnabled="true">
+
+                        <EditText
+                            android:id="@+id/edtSenhaUser"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="1dp"
+                            android:background="@drawable/capsule"
+                            android:drawableStart="@drawable/shape_passwd"
+                            android:drawableLeft="@drawable/shape_passwd"
+                            android:drawablePadding="15dp"
+                            android:hint="@string/senha"
+                            android:imeOptions="actionGo"
+                            android:inputType="textPassword"
+                            android:textColorHint="@color/edtText"
+                            android:textSize="15sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Layout progress bar -->
+                    <FrameLayout
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/TextInpPass"
+                        android:layout_gravity="center">
+
+                        <ProgressBar
+                            android:id="@+id/progress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="2dp"
+                            android:visibility="invisible" />
+
+                        <Button
+                            android:id="@+id/btnLogin"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/style_button"
+                            android:src="@drawable/capsule"
+                            android:text="@string/login"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                    </FrameLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/LLlogin"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-20dp"
+                android:background="@drawable/roundbtn" />
+
+        </RelativeLayout>
+
+
+        <!-- Layout redes sociais e criar conta-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fb_btn"
+                android:drawableLeft="@drawable/facebook_logo"
+                android:hint="@string/login_facebook"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+
+                android:textColorHint="@color/colorWhite"
+                android:textSize="15sp" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/gg_btn"
+                android:drawableLeft="@drawable/google_logo"
+                android:hint="@string/login_com_google"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColorHint="@color/colorBlack"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnCriarConta"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@null"
+                android:hint="@string/criar_conta"
+                android:padding="6dp"
+                android:textColor="@color/txtView"
+                android:textSize="15sp" />
 
         </LinearLayout>
 
         <View
-            android:layout_below="@id/LLlogin"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="-20dp"
-            android:layout_centerHorizontal="true"
-            android:background="@drawable/roundbtn"/>
-
-    </RelativeLayout>
-
-
-    <!-- Layout redes sociais e criar conta-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <Button
             android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/fb_btn"
-            android:drawableLeft="@drawable/facebook_logo"
-            android:hint="@string/login_facebook"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:textColorHint="@color/colorWhite"
-            android:textSize="15sp" />
-
-        <Button
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/gg_btn"
-            android:drawableLeft="@drawable/google_logo"
-            android:hint="@string/login_com_google"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp"
-            android:textColorHint="@color/colorBlack"
-            android:textSize="15sp" />
-
-        <Button
-            android:id="@+id/btnCriarConta"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:background="@null"
-            android:hint="@string/criar_conta"
-            android:padding="6dp"
-            android:textColor="@color/txtView"
-            android:textSize="15sp" />
-
-    </LinearLayout>
-
-    <View
-        android:layout_width="300dp"
-        android:layout_height="1dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:background="#656565"
-        android:orientation="vertical" />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@null"
-            android:hint="@string/sobre"
-            android:textColor="#656565" />
-
-        <View
-            android:layout_width="1dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center_vertical"
-            android:background="@color/txtView"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#656565"
             android:orientation="vertical" />
 
-        <Button
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@null"
-            android:hint="@string/contato"
-            android:textColor="@color/txtView" />
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="@string/sobre"
+                android:textColor="#656565" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/txtView"
+                android:orientation="vertical" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="@string/contato"
+                android:textColor="@color/txtView" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
 
-</LinearLayout>
+</ScrollView>

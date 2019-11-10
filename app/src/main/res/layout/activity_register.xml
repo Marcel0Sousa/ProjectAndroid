@@ -147,6 +147,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="0.5dp"
                         android:background="@drawable/capsule"
+                        android:drawableStart="@drawable/shape_passwd"
                         android:drawableLeft="@drawable/shape_passwd"
                         android:drawablePadding="10dp"
                         android:hint="@string/senha"

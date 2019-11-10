@@ -1,7 +1,5 @@
 package br.com.testwebserviceapi.ui;
 
-import androidx.appcompat.app.AlertDialog;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,16 +12,13 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.android.volley.AuthFailureError;
+import androidx.appcompat.app.AlertDialog;
+
 import com.android.volley.DefaultRetryPolicy;
-import com.android.volley.NetworkResponse;
-import com.android.volley.ParseError;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
-import com.android.volley.toolbox.HttpHeaderParser;
-import com.android.volley.toolbox.JsonRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 
@@ -31,24 +26,20 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.UnsupportedEncodingException;
-import java.util.HashMap;
-import java.util.Map;
-
+import br.com.testwebserviceapi.Domain.Assets;
 import br.com.testwebserviceapi.Domain.User;
 import br.com.testwebserviceapi.R;
+import br.com.testwebserviceapi.network.CustomJsonRequestVerify;
 
-
-import static com.android.volley.Request.*;
+import static com.android.volley.Request.Method;
 
 public class LoginActivity extends Activity {
 
+    EditText edtEmail, edtSenha;
+    ProgressBar progressBar;
     private int MY_SOCKET_TIMEOUT_MS = 5000;
     private RequestQueue mQueue;
     private Button btnLogin, btnCriarConta;
-    EditText edtEmail, edtSenha;
-    private String url;
-    ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,8 +50,7 @@ public class LoginActivity extends Activity {
         edtSenha = findViewById(R.id.edtSenhaUser);
         btnLogin = findViewById(R.id.btnLogin);
         btnCriarConta = findViewById(R.id.btnCriarConta);
-        url = "https://serene-sea-70010.herokuapp.com/login/verify/";
-        mQueue = Volley.newRequestQueue(this);
+        mQueue = Volley.newRequestQueue(LoginActivity.this);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,7 +59,7 @@ public class LoginActivity extends Activity {
                 progressBar = (ProgressBar) findViewById(R.id.progress);
                 progressBar.setVisibility(View.VISIBLE);
 
-                if (validaCampos() != false ){
+                if (validaCampos() != false) {
 
                     btnLogin.setVisibility(View.VISIBLE);
                     progressBar.setVisibility(View.INVISIBLE);
@@ -77,9 +67,7 @@ public class LoginActivity extends Activity {
                 } else {
 
                     sendJson();
-
                 }
-
             }
         });
 
@@ -88,10 +76,15 @@ public class LoginActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
                 startActivity(intent);
+                onStop();
             }
         });
 
+    }
 
+    public void dados() {
+        edtEmail = findViewById(R.id.edtEmailUser);
+        edtSenha = findViewById(R.id.edtSenhaUser);
     }
 
     private boolean validaCampos() {
@@ -100,14 +93,16 @@ public class LoginActivity extends Activity {
         String email = edtEmail.getText().toString();
         String senha = edtSenha.getText().toString();
 
-        if (respostaValidaCampos =! isEmailValido(email)) {
-            edtEmail.setError("Email inválido");
+        if (respostaValidaCampos = !isEmailValido(email)) {
+
+            edtEmail.setError(Assets.INVALID_EMAIL);
             edtEmail.requestFocus();
 
         }
 
         if (respostaValidaCampos = isCampoVazio(senha)) {
-            edtSenha.setError("Senha inválida");
+
+            edtSenha.setError(Assets.INVALID_PASSWD);
             edtSenha.requestFocus();
 
         }
@@ -116,36 +111,37 @@ public class LoginActivity extends Activity {
     }
 
     private boolean isCampoVazio(String valor) {
+
         boolean resultadoValor = (TextUtils.isEmpty(valor) || valor.trim().isEmpty());
         return resultadoValor;
     }
 
     private boolean isEmailValido(String email) {
+
         boolean resultadoEmail = (!isCampoVazio(email) && Patterns.EMAIL_ADDRESS.matcher(email).matches());
         return resultadoEmail;
     }
 
     private void noConnection() {
+
         AlertDialog.Builder alert = new AlertDialog.Builder(this);
         alert.setTitle("AVISO");
-        alert.setMessage("Verifique sua conexão com a internet!");
+        alert.setMessage(Assets.NO_CONNECTION);
         alert.setNeutralButton("OK", null);
         alert.show();
     }
-
 
     public void sendJson() {
 
         User usr = new User();
         usr.setEmail(edtEmail.getText().toString());
         usr.setSenha(edtSenha.getText().toString());
-
         String jsonObject = new Gson().toJson(usr);
 
-        JsonRequest jsonReq = new JsonRequest(Method.POST, url, jsonObject, new Listener<JSONArray>() {
+        CustomJsonRequestVerify jsonReq = new CustomJsonRequestVerify(Method.POST, Assets.API_LOGIN, jsonObject, new Listener<JSONArray>() {
             @Override
             public void onResponse(JSONArray response) {
-                Log.i("RESPOSTA >> ", response.toString());
+                Log.i(Assets.LOG_RESPONSE, response.toString());
 
 
                 try {
@@ -155,7 +151,7 @@ public class LoginActivity extends Activity {
                         User user = new Gson().fromJson(data.toString(), User.class);
                         int id = data.getInt("id");
 
-                        if(id > 0) {
+                        if (id > 0) {
 
                             Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
                             intent.putExtra("dtusr", user);
@@ -164,7 +160,7 @@ public class LoginActivity extends Activity {
 
                         } else {
 
-                            Toast.makeText(getApplicationContext(), "email ou senha incorretos", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), Assets.INVALID_DATA, Toast.LENGTH_LONG).show();
                             btnLogin.setVisibility(View.VISIBLE);
                             progressBar.setVisibility(View.INVISIBLE);
 
@@ -174,7 +170,7 @@ public class LoginActivity extends Activity {
                     }
                 } catch (JSONException e) {
 
-                    Log.e("LOG ERRO >>>", e.getMessage(), e);
+                    Log.e(Assets.LOG_ERRO, e.getMessage(), e);
                 }
 
             }
@@ -182,40 +178,20 @@ public class LoginActivity extends Activity {
             @Override
             public void onErrorResponse(VolleyError error) {
 
-                Log.e("Log", "ERROR sendJSON >> " + error.toString(), error);
+                Log.e("Log", Assets.LOG_ERRO + error.toString(), error);
                 btnLogin.setVisibility(View.VISIBLE);
                 progressBar.setVisibility(View.INVISIBLE);
                 noConnection();
 
-
             }
-        }) {
-            @Override
-            public Map<String, String> getHeaders() throws AuthFailureError {
+        });
 
-                HashMap<String, String> headers = new HashMap<String, String>();
-                headers.put("Content-Type", "application/json");
-                headers.put("Accept", "application/json");
-                return headers;
-            }
-
-            @Override
-            protected Response<JSONArray> parseNetworkResponse(NetworkResponse response) {
-                try {
-                    String jsonString = new String(response.data, HttpHeaderParser.parseCharset(response.headers));
-                    return Response.success(new JSONArray(jsonString), HttpHeaderParser.parseCacheHeaders(response));
-                } catch (UnsupportedEncodingException e) {
-                    return Response.error(new ParseError(e));
-                } catch (JSONException je) {
-                    return Response.error(new ParseError(je));
-                }
-            }
-        };
         jsonReq.setRetryPolicy(new DefaultRetryPolicy(
                 MY_SOCKET_TIMEOUT_MS,
                 DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
                 DefaultRetryPolicy.DEFAULT_BACKOFF_MULT
         ));
+
         jsonReq.setTag(LoginActivity.class);
         mQueue.add(jsonReq);
 
