@@ -41,5 +41,9 @@ dependencies {
     implementation 'androidx.cardview:cardview'
     implementation 'androidx.recyclerview:recyclerview'
 
+    // Lombok
+    compileOnly 'org.projectlombok:lombok:1.18.10'
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
+
 
 }

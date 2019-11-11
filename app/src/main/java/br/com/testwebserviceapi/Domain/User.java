@@ -7,6 +7,14 @@ import android.os.Parcelable;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
 public class User implements Parcelable {
 
     private Integer id;
@@ -57,7 +65,7 @@ public class User implements Parcelable {
     };
 
 
-    public Integer getId() {
+    /*public Integer getId() {
         return id;
     }
 
@@ -135,7 +143,7 @@ public class User implements Parcelable {
 
     public void setTipo(Integer tipo) {
         this.tipo = tipo;
-    }
+    }*/
 
     @Override
     public int describeContents() {
